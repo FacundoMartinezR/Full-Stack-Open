@@ -12,3 +12,4 @@ sequenceDiagram
     Navegador->>Servidor: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
     Navegador->>Servidor: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
     Navegador->>Servidor: HTTP GET data.json
+
