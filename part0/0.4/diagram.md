@@ -5,7 +5,7 @@ sequenceDiagram
     participant Servidor    
 
     Navegador->>Servidor: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
-    activate Serividor
+    activate Servidor
     Servidor-->>Navegador: HTTP 302 GET https://studies.cs.helsinki.fi/exampleapp/notes
     desactivate Servidor
 
